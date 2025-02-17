@@ -1,15 +1,64 @@
-<DOCTYPE html>
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prezentare</title>
     <link rel="stylesheet" href="styles.css" />
-    </head>
+  </head>
   <body>
-    <img
-      src="https://m.media-amazon.com/images/I/51-TrKw+YtL._AC_UF894,1000_QL80_.jpg"
-    />
-    <h1>A site</h1>
-    <p>Nothing to see here</p>
-    <h4>What are you looking at? </h4>
-    <h5>I'm just a question mark</h5>
+    <div class="slides">
+      <div class="slide">
+        <label for="slide1" class="slide-label">
+          <div class="content">
+            <h2>About me</h2>
+            <p>I am a 15-year-old boy who is passionate about rototics and infromatics. </p>
+            <p>I am in the 9th grade.</p>
+          </div>
+        </label>
+      </div>
+      <div class="slide">
+        <label for="slide2" class="slide-label">
+          <div class="content">
+            <h2>Robotics</h2>
+            <img src="https://ae01.alicdn.com/kf/Aa7165a2afb8846b88bf2f84c1b324458a.jpg" alt="Slide 2" />
+            <p>Since i was small i liked to take parts from toys and 
+               make new ones out of them.
+            </p>
+            <p>
+              At the age of 8 I started to study electrical engineering with a teacher
+              and I made toys and cars, until one day my teacher introduced me
+              micro:bit and started programming and building robots. my first
+              the robot was just a programmable machine that could move in a pre-programmed way
+              path around objects. 
+              Then I gave it a robotic arm and added the arduino that will communicate
+              with micro:bit to control the robot. Then I took out the micro:bit and
+              I only used arduino, I got the diploma in 1st place in an electrical one 
+              engineering competition in the country. After I left electrical engineering
+              After leaving electrical engineering class at 14 I added a
+              raspberry pi 4 model B to my robot and made a control web interface for
+              control my robot remotely. The principle was that raspberries would be 
+              sent the commands it receives from the web interface to the arduino
+              through serial communication, we also added web video streaming
+              interface from the robot's video camera.</p>
+            </p>
+          </div>
+        </label>
+      </div>
+      <div class="slide">
+        <label for="slide3" class="slide-label">
+          <div class="content">
+            <h2>Programming </h2>
+            <img src="https://astronomersanonymous.wordpress.com/wp-content/uploads/2016/04/code.png?w=625" alt="Slide 3" />
+            <p>I started programming at the age of 10. </p>
+            <p>When I started with robotics, I also started with programming as I had
+              to program my robots, I made many programs for each new version of
+              my robot, since then I've learned some c++ and html and I'm still learning.
+              In the future, I would like to add some AI to my robot's image processing,
+              maybe connect it to a big language model like chat gbt.</p>
+          </div>
+        </label>
+      </div>
+    </div>
   </body>
 </html>
